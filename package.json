@@ -1,0 +1,22 @@
+{
+  "name": "github-user-activity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/bin/index.ts"
+  },
+  "bin": {
+    "github-activity": "./dist/bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
